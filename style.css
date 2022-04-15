@@ -7,11 +7,11 @@
 }
 
 header {
-    padding-bottom: 40px;
+    padding-bottom: 35px;
    background-color:  rgba(228, 228, 228);
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 100000;
 }
 
 .nav-portfolio {
@@ -68,6 +68,8 @@ div h1{
     
 }
 
+
+
 h3 {
     padding: 700px 0% 63px 0%;
     text-align: center;
@@ -81,6 +83,95 @@ h3 {
     padding: 0 0 200px 0;
     font-size: 25px;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-right: 1rem
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.card-column-first {
+    flex: 1 0 100%;
+    padding: 10rem;
+    margin-bottom: 2rem;
+}
+
+.code-card-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 5rem;
+    outline: 2.5px solid black;
+    outline-offset: -2px;
+}
+
+.code-card-first .card-header-first {
+    position: relative;
+    margin: -6rem 0 1rem 0;
+    padding: 0.5rem 1rem;
+    border: 2.5px solid black;
+    border-bottom: .5px solid black;
+}
+
+.card-header-first {
+    text-align: center;
+    z-index: 1;
+    background-color: lightgrey;
+}
+
+.card-column {
+    /* flex: 1 0 100%; */
+    padding: 5rem;
+    margin-bottom: 2rem;
+}
+
+.code-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 8rem;
+    outline: 2.5px solid black;
+    outline-offset: -2px;
+}
+
+.code-card .card-header {
+    position: relative;
+    margin: -9rem 0 1rem 0;
+    padding: 0.5rem 1rem;
+    border: 2.5px solid black;
+    border-bottom: .5px solid black;
+}
+
+.card-header {
+    text-align: center;
+    z-index: 1;
+    background-color: lightgrey;
+}
+
+
+#align-text {
+    text-align: center;
+}
+
+main {
+    margin-top: 200px;
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1650px) {
     body img {
