@@ -7,7 +7,7 @@
 }
 
 header {
-    /* padding-bottom: 100px; */
+    padding-bottom: 40px;
    background-color:  rgba(228, 228, 228);
     position: fixed;
     width: 100%;
@@ -17,6 +17,7 @@ header {
 .nav-portfolio {
     float: left;
     font-size: 35px;
+    margin-top: 40px;
 }
 
 
@@ -29,7 +30,8 @@ header {
 .nav-list {
     float: right;
     margin-right: 90px;
-    margin-top: 11px;
+    margin-top: 50px;
+    font-size: 20px;
     
 }
 
@@ -40,7 +42,7 @@ header h1 {
 }
 
 body {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 
 body img {
@@ -48,26 +50,41 @@ body img {
     padding-left: 1050px;
     padding-top: 100px;
     width: 100%;
+    background-color: lightgrey;
 
 }
 
 .body-pic {
     display: flex;
+    background-color: lightgrey;
 
 }
 
 div h1{
-    /* padding-top: 300px; */
-    padding: 500px 14% 300px 500px;
     
-    /* background-color:   lightgrey; */
+    padding: 500px 14% 300px 500px;
+    z-index: 1;
     font-size: 40px;
     
 }
 
+h3 {
+    padding: 700px 0% 63px 0%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+
+.aboutmepara {
+    text-align: center;
+    padding: 0 0 200px 0;
+    font-size: 25px;
+}
+
 @media screen and (max-width: 1650px) {
     body img {
-        padding-left: 400px;   
+        padding-left: 800px;   
         /* position: fixed; */
     }
 
@@ -96,14 +113,19 @@ div h1{
      
     div h1{
         padding: 257px 10% 267px 50px;
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 
 
 @media screen and (max-width: 618px) {
     .nav-list {
-        margin-right: 50px;  
+        margin-right: 25px;
+        font-size: 12px;  
+    }
+
+    .nav-portfolio {
+        font-size: 20px;
     }
      
 }
